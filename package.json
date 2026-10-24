@@ -1,0 +1,11 @@
+{
+  "name": "xstk-academy",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Nền tảng học Xác suất thống kê",
+  "scripts": {
+    "build": "python3 src/build.py",
+    "test": "python3 src/build.py && python3 test/compare.py && node test/smoke.js && node test/anim.js"
+  },
+  "devDependencies": { "jsdom": "24.1.3", "katex": "0.16.9" }
+}
